@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:background="@android:color/white"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:id="@+id/add_linkman"
+        android:src="@drawable/addlinkman"/>
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:id="@+id/interesting_content"
+        android:layout_weight="0.04" />
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:id="@+id/message_manage"
+        android:src="@drawable/messagemanage"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/admin_name"
+            android:text="小名"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/content"
+            android:text="黄山：世界文化与自然双重遗产，世界地质公园，国家AAAAA级旅游景区，
+           国家级风景名胜区，全国文明风景旅游区示范点，中华十大名山，天下第一奇山。黄山位于
+           安徽省南部黄山市境内，有72峰，主峰莲花峰海拔1864米，与光明顶、天都峰并称三大黄山
+           主峰，为36大峰之一。黄山是安徽旅游的标志，是中国十大风景名胜唯一的山岳风光。黄山
+           原名“黟山”，因峰岩青黑，遥望苍黛而名。"
+            android:textSize="18dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:id="@+id/collect"
+                android:src="@drawable/collect"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:id="@+id/love"
+                android:src="@drawable/love"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:id="@+id/comment"
+                android:src="@drawable/comment"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:id="@+id/share"
+                android:src="@drawable/share"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
